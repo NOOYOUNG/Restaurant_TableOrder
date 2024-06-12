@@ -68,10 +68,10 @@ public class PosController {
 			}
 		}
 
-		orderDetail.append("총 주문금액: ").append(totalSum).append("원");
+		orderDetail.append("총 결제금액: ").append(totalSum).append("원");
 		System.out.println(orderDetail);
 
-		JFrame orderDetailFrame = new JFrame("총 주문내역");
+		JFrame orderDetailFrame = new JFrame("총 결제내역");
 		JTextArea orderDetailArea = new JTextArea(orderDetail.toString());
 		orderDetailArea.setEditable(false);
 
